@@ -1,7 +1,8 @@
-var fs = require('fs');
+var fs = require("fs");
 
-fs.readFile('input.txt', function(err, data) {
+fs.readFile('input.txt', function(err,data) {
 	if (err) return console.error(err);
 	console.log(data.toString());
-})rl;
-console.log('program has ended') 
+});
+
+console.log("Program has ended"); 
